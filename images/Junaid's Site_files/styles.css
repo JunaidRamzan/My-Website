@@ -1,0 +1,103 @@
+/*****
+body{
+    margin: 0;
+    text-align: center;
+
+
+}
+.top-container{
+    background-color:#C2DEDC;
+    position: relative;
+    padding-top: 250px;
+}
+.top-cloud{
+    height: 200px;
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud{
+    height: 200px;
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+.mountain{
+    height: 500px;
+
+}
+*****/
+
+
+body{
+    background-color: whitesmoke;
+    margin: 0%;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.top-container{
+    background-color:#C2DEDC;
+    height: 793px;
+    position: relative;
+}
+
+.top-h1{
+    position: absolute;
+    top: 180px;
+    right: 690px;
+    font-family: 'Sacramento', cursive;
+}
+
+.top-p{
+    position: absolute;
+    top: 252px;
+    right: 700px;
+}
+
+.top-cloud{
+    height: 200px;
+    position: absolute;
+    top: 40px;
+    right: 150px;
+}
+
+.bottom-cloud{
+    height: 200px;
+    position: absolute;
+    top: 260px;
+    left: 140px;
+}
+
+.mountain{
+    height: 800px;
+    position: absolute;
+    top: 110px;
+    left: 330px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.middle-container{
+    background-color:#C2DEDC;
+}
+.profile-me{
+    height: 260px;
+    border-radius: 50%;
+}
+
+
+.bottom-container{
+    background-color:#C2DEDC;
+}
+
+
+
