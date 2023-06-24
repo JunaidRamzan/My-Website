@@ -7,34 +7,64 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:ital@1&family=Sacramento&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:ital@1&family=Sacramento&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b2b3f1a994.js" crossorigin="anonymous"></script>
     <title>Junaid's Site</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles1.css">
     <link rel="icon" href="favicon.png">
 
 </head>
 <body>
-    <div class="top-container">
-        <img class="top-cloud" src="images/cloud.png" alt="cloud">
-        <h1 class="top-h1"> I'm Junaid.</h1>
-        <p class="top-p">a web designer.</p>
-        <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
-        <img class="mountain" src="images/mountain.png" alt="mountain">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">          
+    <div class="container-fluid">
+        <a class="navbar-brand">jayStation</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button> 
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://junaidramzan.github.io/CV/">Website</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    
+                </ul>
+           </div>
     </div>
+</nav>
+    
+<section class="top">
+        <div class="top-container">
+            <img class="top-cloud" src="images/cloud.png" alt="cloud">
+            <h1 class="top-h1"> I'm Junaid.</h1>
+            <p class="top-p">a web designer.</p>
+            <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+            <img class="mountain" src="images/mountain.png" alt="mountain">
+        </div>
+</section>
 
     <div class="middle-container">
         <div class="profile">
           <img class="profile-pic" src="images/jay.jpeg" alt="">
-          <h2>Hello.</h2>
-          <p>Welcome to my website, where inspiration meets innovation.</p>
+          <h2 class="profile-h2">Hello.</h2>
+          <p class="profile-p">Welcome to my website, where inspiration meets innovation.</p>
         </div>
         <hr>
         <div class="skills">
           <h2 class="skills-h2">My Skills.</h2>
           <div class="skill-row">
             <img class="skills-pic" src="images/skills.png" alt="">
-            <h3 class="master-h3">Mastering the Web:</h3>
-            <p class="pro-p">Proficient in HTML, CSS, and JavaScript, I bring seamless web development, stylish design, and interactive user experiences to life..</p>
+            <h3 class="skills-h3">Mastering the Web:</h3>
+            <p class="skills-p">Proficient in HTML, CSS, and JavaScript, I bring seamless web development, stylish design, and interactive user experiences to life..</p>
           </div>
           <div class="skill-row">
             <img class="coding-pic" src="images/coding.png" alt="">
@@ -43,10 +73,10 @@
           </div>
         </div>
         <hr>
-        <div class="contact-me">
-          <h2 class="touch-h2">Get In Touch</h2>
-          <h3 class="if-h3">If you want to experience greatness</h3>
-          <p class="touch-p">I would be delighted to hear from you! Please feel free to reach out to me for any inquiries, collaborations, or simply to say hello. Your message is important to me, and I will do my best to respond promptly. </p>
+        <div class="contact-me" id="contacts">
+          <h2 class="contact-h2">Get In Touch</h2>
+          <h3 class="contact-h3">If you have any query or need any assistance related to website</h3>
+          <p class="contact-p">I would be delighted to hear from you! Please feel free to reach out to me for any inquiries, collaborations, or simply to say hello. Your message is important to me, and I will do my best to respond promptly. </p>
           <a class="btn" href="mailto:junaidramzan083gmail.com">CONTACT ME</a>
         </div>
       </div>
@@ -60,6 +90,5 @@
       </div>
 </body>
 </html>
-
 
 

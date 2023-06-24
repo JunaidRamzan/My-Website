@@ -1,0 +1,346 @@
+body{
+    background-color: #C2DEDC;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+/* navbar */
+
+#navbar{
+    background-color: #116A7B;
+    padding: 1.3rem;
+}
+
+/* top container */
+
+.top-container{
+    position: relative;
+    margin-top: 7rem;
+    padding-top: 7rem;
+
+}
+
+.top-cloud{
+    width: 15%;
+    position: absolute;
+    right: 8.7rem;
+    top:0.1rem;
+
+}
+
+.top-cloud:hover{
+    width: 18%;
+}
+
+.bottom-cloud{
+    width: 15%;
+    position: absolute;
+    left: 8rem;
+    top:18rem;
+}
+
+.bottom-cloud:hover{
+    width: 18%;
+}
+
+.top-h1{
+    color: #116A7B;
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+}
+
+.top-p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+}
+
+.mountain{
+    width: 60%;
+    height: 60%;
+}
+
+/* middle container */
+
+.middle-container{
+    text-align: center;
+    padding: 5rem;
+}
+
+.profile-pic{
+    border-radius: 100%;
+    width: 17%;
+    margin-bottom: 1.2rem;
+}
+
+.profile-h2{
+    line-height: 1.7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+.profile-p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 4.5rem;
+    width: 45%;
+    margin: 50px auto 50px auto;
+}
+
+.skills-pic{
+    border-radius: 100%;
+    width: 17%;
+    margin-bottom: 1.2rem;
+}
+
+.skills-h2{
+    line-height: 1.7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.skills-h3{
+    line-height: 1.7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+
+}
+
+.skills-p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    line-height: 2;
+    width: 45%;
+    margin: 50px auto 50px auto;
+}
+
+.coding-pic{
+    border-radius: 100%;
+    width: 17%;
+    margin-bottom: 1.2rem;
+}
+
+.mern-h3{
+    line-height: 1.7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+.mern-p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 4.5rem;
+    line-height: 2;
+    width: 45%;
+    margin: 50px auto 50px auto;
+}
+
+.contact-h2{
+    line-height: 1.7;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+
+.contact-h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    width: 45%;
+    margin: 10px auto 50px auto;
+}
+
+.contact-p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 4.5rem;
+    line-height: 2;
+    width: 45%;
+    margin: 50px auto 50px auto;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
+  
+  /* bottom container */
+
+  .bottom-container{
+    background-color:#116A7B;
+    padding: 2rem;
+  }
+
+  .footer-link{
+    text-decoration: none;
+    color: rgb(67, 187, 187);
+    margin: 0.7rem;
+  }
+
+  .footer-link:hover{
+    color: aqua;
+  }
+
+  .copyright-p{
+    margin-top: 3.2rem;
+    margin-bottom: 0;
+    color: whitesmoke;
+    font-size: 0.85rem;
+  }
+
+  /* about page */
+
+  .vision{
+    background-color:#C2DEDC;
+    color: black;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    padding: 50px auto 50px auto;
+    margin: 150px auto 150px auto;
+  }
+
+  .vision-h1{
+    font-family: 'Montserrat';
+}
+
+ .vision-p{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 45%;
+    margin: 15px auto 5px auto;
+ }
+
+.mission{
+    background-color:#C2DEDC;
+    color: black;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    padding: 50px auto 50px auto;
+    margin: 100px auto 110px auto;
+  }
+ 
+  .mission-h1{
+    font-family: 'Montserrat';
+  }
+  .mission-p{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 45%;
+    margin: 15px auto 5px auto;
+  }
+
+  
+  /* media query */
+
+  @media (max-width:620px){
+
+    .top-cloud{
+        position: absolute;
+        right: 30px;
+        top:20px;
+    }
+
+    .bottom-cloud{
+        position: absolute;
+        left: 30px;
+        top:300px;
+    }
+
+    .top-h1{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .top-p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .profile-pic{
+        width: 50%;
+    }
+    .profile-h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .profile-p{
+        font-size: 20px;
+        text-align: center;
+        width: 90%;
+    }
+
+    .skills-h3{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .skills-p{
+        font-size: 20px;
+        text-align: center;
+        width: 95%;
+    }
+
+    .mern-h3{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .mern-p{
+        font-size: 20px;
+        text-align: center;
+        width: 95%;
+        line-height: normal;
+    }
+
+    .contact-h2{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .contact-h3{
+        font-size: 22px;
+        text-align: center;
+        width: 95%;
+    }
+
+    .contact-p{
+        font-size: 20px;
+        text-align: center;
+        width: 95%;
+       line-height: 1.3;
+    }
+
+    .vision-p{
+        font-size: 20px;
+        text-align: center;
+        width: 95%;
+       line-height: 1.3;
+    }
+
+    .mission-p{
+        font-size: 20px;
+        text-align: center;
+        width: 95%;
+       line-height: 1.3;
+    }
+  }
